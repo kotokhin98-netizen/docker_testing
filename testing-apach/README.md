@@ -26,7 +26,7 @@
 # Скачиваем образ (если его нет) и запускаем контейнер
 docker run -d --name my-apache -p 8081:80 httpd
 ```
-![Запуск контейнера](./photos/start%20work%20apach.png)
+![Запуск контейнера](../photos/start%20work%20apach.png)
 
 **Проверка:**  
 ```bash
@@ -35,7 +35,7 @@ docker ps
 Откройте браузер и перейдите по адресу [http://localhost:8081](http://localhost:8081).  
 Вы должны увидеть страницу **"It works!"** от Apache.
 
-![Откроем сайт](./photos/testig%20apach%20web.png)
+![Откроем сайт](../photos/testig%20apach%20web.png)
 
 ---
 
@@ -88,9 +88,9 @@ cat /etc/os-release
 apt update
 apt install -y fastfetch cmatrix htop nano
 ```
-![Обновляем списки пакетов](./photos/testig-apach.png)
+![Обновляем списки пакетов](../photos/testig-apach.png)
 
-![скачиваем файлы](./photos/2026-03-11_11-22-04.png)
+![скачиваем файлы](../photos/2026-03-11_11-22-04.png)
 *Примечание:* в минимальных образах могут отсутствовать `hollywood` или `mc`, но `cmatrix`, `htop` и `nano` вполне доступны.
 
 ### 🎉 Запуск для демонстрации
@@ -100,8 +100,8 @@ fastfetch   # красивая информация о системе
 cmatrix     # матричный дождь (выход: q)
 
 ```
-![Тест fastfetch](./photos/fastfetch.png)
-![Тест cmatrix](./photos/cmatrix.png)
+![Тест fastfetch](../photos/fastfetch.png)
+![Тест cmatrix](../photos/cmatrix.png)
 
 ### 🚪 Выход из контейнера
 
@@ -155,7 +155,7 @@ exit
 5. **Проверяем результат**  
    Выйдите из контейнера (`exit`) и обновите страницу в браузере:  
    [http://localhost:8081](http://localhost:8081)
-   ![Задание 2](./photos/my%20web%20apach.png)
+   ![Задание 2](../photos/my%20web%20apach.png)
 
    Вы должны увидеть своё сообщение.
 
